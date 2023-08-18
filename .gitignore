@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+settings.json
+
+.vscode/
+# do not ignore launch in vscode

@@ -1,0 +1,21 @@
+{
+  "programs": [
+    {
+      "name": "Matrix Synapse",
+      "github": "matrix-org/synapse",
+      "dockerhub": "synapse",
+      "namespace": "matrixdotorg",
+      "version": "v1.0.0"
+    },
+    {
+      "name": "PostgreSQL",
+      "dockerhub": "postgres",
+      "namespace": "library",
+      "version": "9.6.8"
+    }
+  ],
+  "telegram": {
+    "token": "*******************",
+    "chat_id": "*************"
+  }
+}
