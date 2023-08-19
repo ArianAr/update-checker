@@ -1,11 +1,9 @@
 import requests
-from datetime import datetime, timedelta
 import src.telegram as tele
 import src.settings as settings
 import src.sources.github as github
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-import time
 import asyncio
 
 
