@@ -18,5 +18,4 @@ If the image is on Docker's library, you must change the namespace to `library`.
 - [ ] clean up message output on gitlab and docker
 - [ ] test for gitlab
 - [ ] test for docker
-
-- [ ] write the new version in file
+- [*] write the new version in file
