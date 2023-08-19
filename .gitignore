@@ -3,7 +3,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.so
-
+last_notified_versions.json
 settings.json
 
 .vscode/
