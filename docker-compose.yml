@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  update-checker:
+    container_name: update-checker
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: update-checker
+    volumes:
+      - ./settings.json:/home/worker/settings.json 
+      - ./last_notified_versions.json:/home/worker/last_notified_versions.json
